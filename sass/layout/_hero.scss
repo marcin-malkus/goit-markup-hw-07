@@ -1,0 +1,30 @@
+.hero {
+  &__img {
+    margin: 0 auto;
+    max-width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../images/bgTitle.png');
+    @include bg-img-position;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__text {
+    text-align: center;
+    width: 696px;
+    color: $white-color;
+    h1 {
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 44px;
+      letter-spacing: 0.06em;
+    }
+  }
+  &__btn {
+    margin-top: 30px;
+    padding: 0 42px;
+    height: 50px;
+  }
+}
