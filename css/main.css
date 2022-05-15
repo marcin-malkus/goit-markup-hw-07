@@ -40,12 +40,14 @@ a {
 
 @keyframes animateModal {
   from {
-    top: -300px;
-    opacity: 0;
+    top: 20%;
+    left: 37%;
+    transform: scale(0.1);
   }
   to {
     top: 50%;
-    opacity: 1;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -170,7 +172,7 @@ a {
 }
 
 .animated-modal {
-  animation: animateModal 0.2s;
+  animation: animateModal 0.5s;
 }
 
 .is-hidden {
@@ -301,7 +303,7 @@ a {
 .modal__checkbox-policy_declaration:checked + .modal__policy-declaration::before {
   background-color: #2196f3;
   outline: none;
-  background-image: url("/images/modal-check.svg");
+  background-image: url("../images/modal-check.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -311,27 +313,27 @@ a {
 }
 
 .user-name-icon {
-  background-image: url("/images/modal-person-black.svg");
+  background-image: url("../images/modal-person-black.svg");
 }
 
 .user-name-icon:focus {
-  background-image: url("/images/modal-person-blue.svg");
+  background-image: url("../images/modal-person-blue.svg");
 }
 
 .tel-icon {
-  background-image: url("/images/modal-phone-black.svg");
+  background-image: url("../images/modal-phone-black.svg");
 }
 
 .tel-icon:focus {
-  background-image: url("/images/modal-phone-blue.svg");
+  background-image: url("../images/modal-phone-blue.svg");
 }
 
 .email-icon {
-  background-image: url("/images/modal-email-black.svg");
+  background-image: url("../images/modal-email-black.svg");
 }
 
 .email-icon:focus {
-  background-image: url("/images/modal-email-blue.svg");
+  background-image: url("../images/modal-email-blue.svg");
 }
 
 .newsletter {

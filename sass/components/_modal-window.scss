@@ -7,7 +7,7 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 .animated-modal {
-  animation: animateModal 0.2s;
+  animation: animateModal 0.5s;
 }
 .is-hidden {
   opacity: 0;
@@ -120,7 +120,7 @@
   &__checkbox-policy_declaration:checked + &__policy-declaration::before {
     background-color: $main-color;
     outline: none;
-    background-image: url('/images/modal-check.svg');
+    background-image: url('../images/modal-check.svg');
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -130,21 +130,21 @@
 }
 
 .user-name-icon {
-  background-image: url('/images/modal-person-black.svg');
+  background-image: url('../images/modal-person-black.svg');
 }
 .user-name-icon:focus {
-  background-image: url('/images/modal-person-blue.svg');
+  background-image: url('../images/modal-person-blue.svg');
 }
 
 .tel-icon {
-  background-image: url('/images/modal-phone-black.svg');
+  background-image: url('../images/modal-phone-black.svg');
 }
 .tel-icon:focus {
-  background-image: url('/images/modal-phone-blue.svg');
+  background-image: url('../images/modal-phone-blue.svg');
 }
 .email-icon {
-  background-image: url('/images/modal-email-black.svg');
+  background-image: url('../images/modal-email-black.svg');
 }
 .email-icon:focus {
-  background-image: url('/images/modal-email-blue.svg');
+  background-image: url('../images/modal-email-blue.svg');
 }
