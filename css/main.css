@@ -370,7 +370,7 @@ a {
 }
 
 .newsletter__btn-text::after {
-  content: url("/images/send-icon.svg");
+  content: url(../images/send-icon.svg);
   width: 24px;
   height: 24px;
   position: absolute;
